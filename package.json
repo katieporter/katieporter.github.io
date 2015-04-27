@@ -1,12 +1,12 @@
 {
-  "name": "browser-sync-jekyll",
+  "name": "portfolio",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "Katie Porter portfolio",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
+  "author": "Katie Porter",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.8",
