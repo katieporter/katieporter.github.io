@@ -1,0 +1,51 @@
+html, body
+  margin: 0
+  padding: 0
+  width: 100%
+  overflow-x: hidden
+  background: $secondary
+
+.hero
+  @media #{$medium-up}
+    height: 100vh
+    overflow-y: hidden
+    border: rem-calc(10) solid $quaternary
+
+.content
+  margin-top: rem-calc(75)
+  text-align: center
+  @media #{$medium-up}
+    margin-top: 0
+    @include vertical-align
+
+.bg-img
+  @include vertical-align
+  background: url(../images/diamonds.png) no-repeat center
+  background-size: cover
+  position: absolute
+  height: 100%
+  width: 100%
+  max-height: rem-calc(708)
+  max-width: rem-calc(1198)
+  margin: 0 auto
+
+h1
+  margin-bottom: rem-calc(15)
+
+.social
+  margin: rem-calc(50 0)
+  text-align: center
+  .icon-wrapper
+    display: inline-block
+    &:not(:last-child)
+      margin-right: rem-calc(50)
+  .icon
+    transition: background .5s
+    padding-top: rem-calc(8)
+    height: rem-calc(47)
+    width: rem-calc(47)
+    text-align: center
+    border: rem-calc(3) double $white
+    border-radius: 50%
+    &:hover
+      background: $quaternary
