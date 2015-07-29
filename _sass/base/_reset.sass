@@ -5,14 +5,16 @@ html, body
   border-top: rem-calc(24) solid $primary
 
 .content
-  margin-top: rem-calc(100)
+  margin-top: rem-calc(60)
   max-width: rem-calc(600)
+  @media #{$medium-up}
+    margin-top: rem-calc(100)
 
 h1
   margin-bottom: rem-calc(24)
 
 .social
-  margin: rem-calc(36 0 0)
+  margin: rem-calc(48 0 0)
   .icon-wrapper
     display: inline-block
     &:not(:last-child)
